@@ -121,9 +121,9 @@ DROP DATABASE IF EXISTS SpotifyClone;
     (5, 'Under Pressure', 152, 3),
     (6, 'Como Nossos Pais', 105, 4),
     (7, 'O Medo de Amar é o Medo de Ser Livre', 207, 5),
-    (8, 'The Bard’s Song', 267, 7),
-    (9, 'Feeling Good', 244, 8),
-    (10, 'Samba em Paris', 100, 6);
+    (8, 'The Bard’s Song', 244, 7),
+    (9, 'Feeling Good', 100, 8),
+    (10, 'Samba em Paris', 267, 6);
 
   INSERT INTO SpotifyClone.historico(id_usuario, id_cancao, data_reproducao)
   VALUES
